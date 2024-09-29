@@ -13,11 +13,11 @@ informadas sobre su futuro académico y profesional.
 
 | **Nombre**              | **Rol**                                     | **Perfil**                                                 |
 |-------------------------|---------------------------------------------|------------------------------------------------------------|
-| Angulo Renteria Lourdes |  | [LinkedIn]()           |
-| Cacho Quispe Yuliana    |                    |      [LinkedIn]()                                                         |
+| |  | [LinkedIn]()           |
+|    |                    |      [LinkedIn]()                                                         |
 | Espinoza Eche Jeisson   |                    |          [LinkedIn]()                                                     |
-| Sanchez Castro Piero    |                    |             [LinkedIn]()                                                  |
-| Vargas Alvitres Yamir   |                    |                 [LinkedIn]()                                                                |
+|   |                    |             [LinkedIn]()                                                  |
+|    |                    |                 [LinkedIn]()                                                                |
 
 ### Revisa el Progreso del Proyecto
 
