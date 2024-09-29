@@ -1,6 +1,5 @@
 package com.vocacional.orientacionvocacional.model.entity;
 
-import com.vocacional.orientacionvocacional.model.entity.Ubicacion;
 import jakarta.persistence.*;
 
 @Entity
@@ -16,6 +15,10 @@ public class Carrera {
     @ManyToOne
     @JoinColumn(name = "ubicacion_id", nullable = false)
     private Ubicacion ubicacion;
+
+    private String descripcion;
+    private String precioMensualidad;
+    private String img;
 
     // Getters y Setters
     public Long getId() {
@@ -40,5 +43,29 @@ public class Carrera {
 
     public void setUbicacion(Ubicacion ubicacion) {
         this.ubicacion = ubicacion;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public String getPrecioMensualidad() {
+        return precioMensualidad;
+    }
+
+    public void setPrecioMensualidad(String precioMensualidad) {
+        this.precioMensualidad = precioMensualidad;
     }
 }

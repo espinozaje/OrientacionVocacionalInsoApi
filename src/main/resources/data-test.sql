@@ -208,3 +208,28 @@ INSERT INTO opcion (texto, score, pregunta_id) VALUES ('No me interesa', 0, 49);
 INSERT INTO opcion (texto, score, pregunta_id) VALUES ('Me interesa', 1, 50);
 INSERT INTO opcion (texto, score, pregunta_id) VALUES ('No me interesa', 0, 50);
 
+INSERT INTO ubicaciones (ciudad, region, pais) VALUES
+                                                   ('Lima', 'Lima', 'Perú'),
+                                                   ('Arequipa', 'Arequipa', 'Perú'),
+                                                   ('Trujillo', 'La Libertad', 'Perú'),
+                                                   ('Cusco', 'Cusco', 'Perú'),
+                                                   ('Piura', 'Piura', 'Perú'),
+                                                   ('Chiclayo', 'Lambayeque', 'Perú'),
+                                                   ('Huancayo', 'Junín', 'Perú'),
+                                                   ('Iquitos', 'Loreto', 'Perú'),
+                                                   ('Puno', 'Puno', 'Perú'),
+                                                   ('Tacna', 'Tacna', 'Perú');
+
+
+INSERT INTO carreras (ubicacion_id, nombre, img, descripcion, precio_mensualidad)
+VALUES
+    (1, 'Ingeniería de Sistemas', 'https://cba.ucb.edu.bo/blog/wp-content/uploads/2021/04/desarrollo-programadores-desarrollo-tecnologias-diseno-codificacion-sitios-web_18497-1019.jpg', 'La carrera que forma profesionales en tecnologías de la información y comunicación.', '1500'),
+    (2, 'Medicina', 'https://observatorio.tec.mx/wp-content/uploads/2020/06/TheRoleofaMedicalandHealthSciencesStudentDuringaPandemic.jpg', 'Estudios enfocados en la atención médica y la investigación de enfermedades.', '3000'),
+    (3, 'Derecho', 'https://definicion.de/wp-content/uploads/2008/03/juez.jpg', 'Carrera que enseña los fundamentos de la justicia y la defensa de los derechos.', '1300'),
+    (4, 'Arquitectura', 'https://static-wc.arcux.net/uploads/20200529130551/la-arquitectura-1.jpg', 'Formación en diseño y planificación de estructuras y edificios.', '1700'),
+    (5, 'Administración de Empresas', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0iwWEN9g2p3VklxnZXcphNP5ZyYC-m4xsw&s', 'Preparación para la gestión y administración de organizaciones.', '1200'),
+    (6, 'Ingeniería Industrial', 'https://www.tuproyectodevida.pe/wp-content/uploads/2023/04/especialidades-ingenieria-industrial.jpg', 'Especialización en procesos productivos y optimización de recursos.', '1600'),
+    (7, 'Contabilidad', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSNUwfO7VtFls59UYGmDvcj2LOV2n4qqyYA&s', 'Estudio de la gestión financiera y el manejo de cuentas.', '1100'),
+    (8, 'Psicología', 'https://clinicavicent.com/wp-content/uploads/2023/05/psicologia.webp', 'Formación para la comprensión y tratamiento del comportamiento humano.', '1400'),
+    (9, 'Marketing', 'https://i0.wp.com/www.erickpardo.com/wp-content/uploads/2020/11/marketing.webp?fit=1280%2C854&ssl=1', 'Carrera centrada en estrategias de promoción y ventas de productos y servicios.', '1000'),
+    (10, 'Diseño Gráfico', 'https://cdn-cjpme.nitrocdn.com/RBveHUhgbLfgOUOOlhRIgWHSMTdPvbOz/assets/images/optimized/rev-bb4821d/mediactiu.com/wp-content/uploads/2021/04/Por-que-necesito-contratar-los-servicios-de-disen%CC%83o-grafico.jpg', 'Enseñanza del arte visual, diseño digital y creación de contenido visual.', '900');

@@ -25,4 +25,9 @@ public class CarreraService {
         }
         return null;
     }
+
+    public Carrera getCarreraById(Long id) throws Exception {
+        return carreraRepository.findById(id)
+                .orElseThrow(() -> new Exception("Carrera no encontrada con id: " + id));
+    }
 }

@@ -2,7 +2,6 @@ package com.vocacional.orientacionvocacional.model.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.vocacional.orientacionvocacional.model.entity.Pregunta;
 import jakarta.persistence.*;
 
 @Entity

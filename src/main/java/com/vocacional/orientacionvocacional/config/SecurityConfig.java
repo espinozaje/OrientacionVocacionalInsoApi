@@ -18,7 +18,7 @@ public class SecurityConfig extends SecurityConfigurerAdapter {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-                .csrf(csrf -> csrf.disable())  // Deshabilitar CSRF de manera explícita
+                .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
                         .anyRequest().permitAll()
                 );
@@ -36,6 +36,7 @@ public class SecurityConfig extends SecurityConfigurerAdapter {
             @Override
             public void addCorsMappings(CorsRegistry registry){
                 registry.addMapping("/**").allowedOrigins("*").allowedMethods("GET", "POST", "PUT", "DELETE");
+
             }
         };
     }

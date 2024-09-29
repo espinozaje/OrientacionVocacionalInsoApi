@@ -47,7 +47,7 @@ public class CarreraController {
 
 
     @PostMapping("/insertarcarrera")
-    public ResponseEntity<Carrera> agregarCarrera(@RequestParam String nombreCarrera, @RequestParam Long ubicacionId) {
+    public ResponseEntity<Carrera> agregarCarrera(@RequestParam String nombreCarrera, @RequestParam Long ubicacionId, @RequestParam String img, @RequestParam String descripcion, @RequestParam String precio) {
         Ubicacion ubicacion = ubicacionRepository.findById(ubicacionId).orElse(null);
         if (ubicacion == null) {
             return ResponseEntity.badRequest().body(null);
@@ -56,6 +56,9 @@ public class CarreraController {
         Carrera carrera = new Carrera();
         carrera.setNombre(nombreCarrera);
         carrera.setUbicacion(ubicacion);
+        carrera.setImg(img);
+        carrera.setDescripcion(descripcion);
+        carrera.setPrecioMensualidad(precio);
 
         Carrera nuevaCarrera = carreraRepository.save(carrera);
         return ResponseEntity.ok(nuevaCarrera);
@@ -83,5 +86,15 @@ public class CarreraController {
     public ResponseEntity<List<Carrera>> obtenercarreras(){
         List<Carrera> carreras = carreraRepository.findAll();
         return ResponseEntity.ok(carreras);
+    }
+
+    @GetMapping("/carreraporID/{carreraId}")
+    public ResponseEntity<?> obtenerCarrerasPorID(@PathVariable Long carreraId) {
+        try {
+            Carrera carrera = carreraService.getCarreraById(carreraId);
+            return ResponseEntity.ok(carrera);
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body("Error al obtener el usuario: " + e.getMessage());
+        }
     }
 }
