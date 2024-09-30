@@ -13,11 +13,12 @@ informadas sobre su futuro académico y profesional.
 
 | **Nombre**              | **Rol**                                     | **Perfil**                                                 |
 |-------------------------|---------------------------------------------|------------------------------------------------------------|
-| |  | [LinkedIn]()           |
-|    |                    |      [LinkedIn]()                                                         |
-| Espinoza Eche Jeisson   |                    |          [LinkedIn]()                                                     |
-|   |                    |             [LinkedIn]()                                                  |
-|    |                    |                 [LinkedIn]()                                                                |
+|Aroni Muñoz Francisco |  | [LinkedIn]()           |
+| Espinoza Eche Jeisson   |                    |      [LinkedIn]()                                                         |
+| Cruz León Gustavo   |                    |          [LinkedIn]()                                                     |
+| Grados Araujo Samil |                    |             [LinkedIn]()                                                  |
+|Aguirre del Castillo Piero    |                    |                 [LinkedIn]()                                                                |
+|Sanchez Castro Piero    |                    |                 [LinkedIn]()                                                                |
 
 ### Revisa el Progreso del Proyecto
 
