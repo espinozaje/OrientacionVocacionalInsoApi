@@ -1,11 +1,11 @@
 package com.vocacional.orientacionvocacional.dto;
 
-import com.vocacional.orientacionvocacional.model.enums.ERole;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
-public class UserDTO {
+public class AsesorDTO {
+
     @NotBlank(message = "El nombre es obligatorio")
     private String firstName;
 
@@ -20,8 +20,10 @@ public class UserDTO {
     @Size(min = 6, message = "La contraseña debe tener al menos 6 caracteres")
     private String password;
 
+    @NotBlank(message = "La especialidad es obligatoria")
+    private String especialidad;
 
-    private ERole role;
+    // private ERole role;
 
     public @NotBlank(message = "El nombre es obligatorio") String getFirstName() {
         return firstName;
@@ -55,11 +57,11 @@ public class UserDTO {
         this.password = password;
     }
 
-    public ERole getRole() {
-        return role;
+    public @NotBlank(message = "La especialidad es obligatoria") String getEspecialidad() {
+        return especialidad;
     }
 
-    public void setRole(ERole role) {
-        this.role = role;
+    public void setEspecialidad(@NotBlank(message = "La especialidad es obligatoria") String especialidad) {
+        this.especialidad = especialidad;
     }
 }

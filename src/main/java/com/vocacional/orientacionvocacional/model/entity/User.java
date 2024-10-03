@@ -1,6 +1,7 @@
 package com.vocacional.orientacionvocacional.model.entity;
 
 
+import com.vocacional.orientacionvocacional.model.enums.ERole;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -8,6 +9,7 @@ import jakarta.validation.constraints.Size;
 
 @Entity
 @Table(name = "Usuarios")
+@Inheritance(strategy = InheritanceType.JOINED)
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,6 +30,10 @@ public class User {
     private String password;
 
     private String resetPasswordToken;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private ERole role;
 
     public @NotBlank(message = "El nombre es obligatorio") String getFirstName() {
         return firstName;
@@ -76,5 +82,14 @@ public class User {
 
     public void setResetPasswordToken(String resetPasswordToken) {
         this.resetPasswordToken = resetPasswordToken;
+    }
+
+
+    public ERole getRole() {
+        return role;
+    }
+
+    public void setRole(ERole role) {
+        this.role = role;
     }
 }

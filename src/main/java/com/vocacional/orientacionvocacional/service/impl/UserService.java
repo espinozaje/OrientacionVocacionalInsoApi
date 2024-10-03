@@ -1,7 +1,11 @@
 package com.vocacional.orientacionvocacional.service.impl;
 
+
 import com.vocacional.orientacionvocacional.dto.UserDTO;
+import com.vocacional.orientacionvocacional.model.entity.Asesor;
+import com.vocacional.orientacionvocacional.model.entity.Estudiante;
 import com.vocacional.orientacionvocacional.model.entity.User;
+import com.vocacional.orientacionvocacional.model.enums.ERole;
 import com.vocacional.orientacionvocacional.repository.UserRepository;
 import jakarta.mail.internet.MimeMessage;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,27 +29,38 @@ public class UserService {
     @Autowired
     private JavaMailSender mailSender;
 
+
     public void registrarUsuario(UserDTO usuarioDTO) {
 
-        User user = new User();
+        User user;
+
+        // Asignar el tipo de usuario basado en el rol
+        if (usuarioDTO.getRole() == ERole.ESTUDIANTE) {
+            user = new Estudiante();
+        } else if (usuarioDTO.getRole() == ERole.ASESOR) {
+            user = new Asesor();
+        } else {
+            throw new IllegalArgumentException("Rol no válido");
+        }
+
         user.setFirstName(usuarioDTO.getFirstName());
         user.setLastName(usuarioDTO.getLastName());
         user.setEmail(usuarioDTO.getEmail());
-        user.setPassword(usuarioDTO.getPassword());
-
-
         user.setPassword(passwordEncoder.encode(usuarioDTO.getPassword()));
-
+        user.setRole(usuarioDTO.getRole());
 
         usuarioRepository.save(user);
     }
 
-    public boolean login(String email, String password) {
+
+
+
+    public User login(String email, String password) {
         User usuario = usuarioRepository.findByEmail(email);
-        if (usuario != null) {
-            return passwordEncoder.matches(password, usuario.getPassword());  // Compara contraseñas
+        if (usuario != null && passwordEncoder.matches(password, usuario.getPassword())) {
+            return usuario;  // Devuelve el usuario si las credenciales son correctas
         }
-        return false;
+        return null;  // Devuelve null si no se encuentra el usuario o las credenciales son incorrectas
     }
 
 
@@ -97,10 +112,6 @@ public class UserService {
     }
 
 
-    public User findByEmail(String email) {
-        return usuarioRepository.findByEmail(email);
-    }
-
     public void generateResetPasswordToken(String email) throws Exception {
         User user = usuarioRepository.findByEmail(email);
         if (user == null) {
@@ -115,6 +126,14 @@ public class UserService {
         sendResetPasswordEmail(user.getEmail(), token);
     }
 
+    public User findByEmail(String email) {
+        return usuarioRepository.findByEmail(email);
+    }
+
+    public User updateUser(User user) {
+        return usuarioRepository.save(user); // Usa tu repositorio para guardar los cambios
+    }
+
     public void resetPassword(String token, String newPassword) throws Exception {
         User user = usuarioRepository.findByResetPasswordToken(token);
         if (user == null) {
@@ -127,7 +146,7 @@ public class UserService {
     }
 
     private void sendResetPasswordEmail(String email, String token) throws Exception {
-        String resetLink = "https://orientacion-vocacional-inso.vercel.app/reset-password?token=" + token;
+        String resetLink = "http://localhost:4200/reset-password?token=" + token;
         MimeMessage message = mailSender.createMimeMessage();
         MimeMessageHelper helper = new MimeMessageHelper(message);
 
@@ -145,3 +164,4 @@ public class UserService {
     }
 
 }
+
