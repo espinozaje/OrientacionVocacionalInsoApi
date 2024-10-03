@@ -1,54 +1,53 @@
-
-INSERT INTO pregunta (texto, area) VALUES ('1. Diseñar programas de computación y explorar nuevas aplicaciones tecnológicas para uso del internet.', 'ÁREA IV: Ciencia y Tecnología');
-INSERT INTO pregunta (texto, area) VALUES ('2. Criar, cuidar y tratar animales domésticos y de campo', 'ÁREA V: Ciencias Ecológicas, Biológicas y de Salud');
-INSERT INTO pregunta (texto, area) VALUES ('3. Investigar sobre áreas verdes, medio ambiente y cambios climáticos', 'ÁREA V: Ciencias Ecológicas, Biológicas y de Salud');
-INSERT INTO pregunta (texto, area) VALUES ('4. Ilustrar, dibujar y animar digitalmente', 'ÁREA I: Arte y Creatividad');
-INSERT INTO pregunta (texto, area) VALUES ('5. Seleccionar, capacitar y motivar al personal de una organización/empresa', 'ÁREA III: Económica, Administrativa y Financiera');
-INSERT INTO pregunta (texto, area) VALUES ('6. Realizar excavaciones para descubrir restos del pasado', 'ÁREA II: Ciencias Sociales');
-INSERT INTO pregunta (texto, area) VALUES ('7. Resolver problemas de cálculopara construir un puente', 'ÁREA IV: Ciencia y Tecnología');
-INSERT INTO pregunta (texto, area) VALUES ('8. Diseñar cursos para enseñar a la gente sobre temas de salud e higiene', 'ÁREA V: Ciencias Ecológicas, Biológicas y de Salud');
-INSERT INTO pregunta (texto, area) VALUES ('9. Tocar un instrumento y componer música', 'ÁREA I: Arte y Creatividad');
-INSERT INTO pregunta (texto, area) VALUES ('10. Planificar cuáles son las metas de una organización pública o privada a mediano y largo plazo.', 'ÁREA III: Económica, Administrativa y Financiera');
-INSERT INTO pregunta (texto, area) VALUES ('11. Diseñar y planificar la producción masiva de artículos como muebles, autos, equipos de oficina, empaques y envases para alimentos y otros.', 'ÁREA IV: Ciencia y Tecnología');
-INSERT INTO pregunta (texto, area) VALUES ('12. Diseñar logotipos y portadas de una revista', 'ÁREA I: Arte y Creatividad');
-INSERT INTO pregunta (texto, area) VALUES ('13. Organizar eventos y atender a sus asistentes', 'ÁREA II: Ciencias Sociales');
-INSERT INTO pregunta (texto, area) VALUES ('14. Atender la salud de personas enfermas.', 'ÁREA V: Ciencias Ecológicas, Biológicas y de Salud');
-INSERT INTO pregunta (texto, area) VALUES ('15. Controlar ingresos y egresos de fondos y presentar el balance final de una institución.', 'ÁREA III: Económica, Administrativa y Financiera');
-INSERT INTO pregunta (texto, area) VALUES ('16. Hacer experimentos con plantas (frutas, árboles, flores)', 'ÁREA V: Ciencias Ecológicas, Biológicas y de Salud');
-INSERT INTO pregunta (texto, area) VALUES ('17. Concebir planos para viviendas, edificios y ciudadelas.', 'ÁREA IV: Ciencia y Tecnología');
-INSERT INTO pregunta (texto, area) VALUES ('18. Investigar y probar nuevos productos farmacéuticos.', 'ÁREA IV: Ciencia y Tecnología');
-INSERT INTO pregunta (texto, area) VALUES ('19. Hacer propuestas y formular estrategias para aprovechar las relaciones económicas entre dos países.', 'ÁREA III: Económica, Administrativa y Financiera');
-INSERT INTO pregunta (texto, area) VALUES ('20. Pintar, hacer esculturas, ilustrar libros de arte, etcétera.', 'ÁREA I: Arte y Creatividad');
-INSERT INTO pregunta (texto, area) VALUES ('21. Elaborar campañas para introducir un nuevo producto al mercado.', 'ÁREA III: Económica, Administrativa y Financiera');
-INSERT INTO pregunta (texto, area) VALUES ('22. Examinar y tratar los problemas visuales', 'ÁREA V: Ciencias Ecológicas, Biológicas y de Salud');
-INSERT INTO pregunta (texto, area) VALUES ('23. Defender a clientes individuales o empresas en juicios de diferente naturaleza.', 'ÁREA II: Ciencias Sociales');
-INSERT INTO pregunta (texto, area) VALUES ('24. Diseñar máquinas que puedan simular actividades humanas.', 'ÁREA IV: Ciencia y Tecnología');
-INSERT INTO pregunta (texto, area) VALUES ('25. Investigar las causas y efectos de los trastornos emocionales', 'ÁREA II: Ciencias Sociales');
-INSERT INTO pregunta (texto, area) VALUES ('26. Supervisar las ventas de un centro comercial', 'ÁREA III: Económica, Administrativa y Financiera');
-INSERT INTO pregunta (texto, area) VALUES ('27. Atender y realizar ejercicios a personas que tienen limitaciones físicas, problemas de lenguaje, etcétera.', 'ÁREA V: Ciencias Ecológicas, Biológicas y de Salud');
-INSERT INTO pregunta (texto, area) VALUES ('28. Prepararse para ser modelo profesional.', 'ÁREA I: Arte y Creatividad');
-INSERT INTO pregunta (texto, area) VALUES ('29. Aconsejar a las personas sobre planes de ahorro e inversiones.', 'ÁREA III: Económica, Administrativa y Financiera');
-INSERT INTO pregunta (texto, area) VALUES ('30. Elaborar mapas, planos e imágenes para el estudio y análisis de datos geográficos.', 'ÁREA IV: Ciencia y Tecnología');
-INSERT INTO pregunta (texto, area) VALUES ('31. Diseñar juegos interactivos electrónicos para computadora', 'ÁREA I: Arte y Creatividad');
-INSERT INTO pregunta (texto, area) VALUES ('32. Realizar el control de calidad de los alimentos', 'ÁREA V: Ciencias Ecológicas, Biológicas y de Salud');
-INSERT INTO pregunta (texto, area) VALUES ('33. Tener un negocio propio de tipo comercial.', 'ÁREA III: Económica, Administrativa y Financiera');
-INSERT INTO pregunta (texto, area) VALUES ('34. Escribir artículos periodísticos, cuentos, novelas y otros.', 'ÁREA II: Ciencias Sociales');
-INSERT INTO pregunta (texto, area) VALUES ('35. Redactar guiones y libretos para un programa de televisión', 'ÁREA I: Arte y Creatividad');
-INSERT INTO pregunta (texto, area) VALUES ('36. Organizar un plan de distribución y venta de un gran almacén.', 'ÁREA III: Económica, Administrativa y Financiera');
-INSERT INTO pregunta (texto, area) VALUES ('37. Estudiar la diversidad cultural en el ámbito rural y urbano.', 'ÁREA II: Ciencias Sociales');
-INSERT INTO pregunta (texto, area) VALUES ('38. Gestionar y evaluar convenios internacionales de cooperación para el desarrollo social.', 'ÁREA II: Ciencias Sociales');
-INSERT INTO pregunta (texto, area) VALUES ('39. Crear campañas publicitarias', 'ÁREA I: Arte y Creatividad');
-INSERT INTO pregunta (texto, area) VALUES ('40. Trabajar investigando la reproducción de peces, camarones y otros animales marinos.', 'ÁREA V: Ciencias Ecológicas, Biológicas y de Salud');
-INSERT INTO pregunta (texto, area) VALUES ('41. Dedicarse a fabricar productos alimenticios de consumo masivo', 'ÁREA IV: Ciencia y Tecnología');
-INSERT INTO pregunta (texto, area) VALUES ('42. Gestionar y evaluar proyectos de desarrollo en una institución educativa y/o fundación.', 'ÁREA II: Ciencias Sociales');
-INSERT INTO pregunta (texto, area) VALUES ('43. Rediseñar y decorar espacios físicos en viviendas, oficinas y locales comerciales.', 'ÁREA I: Arte y Creatividad');
-INSERT INTO pregunta (texto, area) VALUES ('44. Administrar una empresa de turismo y/o agencias de viaje.', 'ÁREA III: Económica, Administrativa y Financiera');
-INSERT INTO pregunta (texto, area) VALUES ('45. Aplicar métodos alternativos a la medicina tradicional para atender personas con dolencias de diversa índole.', 'ÁREA V: Ciencias Ecológicas, Biológicas y de Salud');
-INSERT INTO pregunta (texto, area) VALUES ('46. Diseñar ropa para niños, jóvenes y adultos.', 'ÁREA I: Arte y Creatividad');
-INSERT INTO pregunta (texto, area) VALUES ('47. Investigar organismos vivos para elaborar vacunas.', 'ÁREA V: Ciencias Ecológicas, Biológicas y de Salud');
-INSERT INTO pregunta (texto, area) VALUES ('48. Manejar y/o dar mantenimiento a dispositivos/aparatos tecnológicos en aviones, barcos, radares, etcétera.', 'ÁREA IV: Ciencia y Tecnología');
-INSERT INTO pregunta (texto, area) VALUES ('49. Estudiar idiomas extranjeros –actuales y antiguos- para hacer traducción.', 'ÁREA II: Ciencias Sociales');
-INSERT INTO pregunta (texto, area) VALUES ('50. Restaurar piezas y obras de arte', 'ÁREA I: Arte y Creatividad');
+INSERT INTO pregunta (texto, area) VALUES ('1. Disenar programas de computacion y explorar nuevas aplicaciones tecnologicas para uso del internet.', 'AREA IV: Ciencia y Tecnologia');
+INSERT INTO pregunta (texto, area) VALUES ('2. Criar, cuidar y tratar animales domesticos y de campo', 'AREA V: Ciencias Ecologicas, Biologicas y de Salud');
+INSERT INTO pregunta (texto, area) VALUES ('3. Investigar sobre areas verdes, medio ambiente y cambios climaticos', 'AREA V: Ciencias Ecologicas, Biologicas y de Salud');
+INSERT INTO pregunta (texto, area) VALUES ('4. Ilustrar, dibujar y animar digitalmente', 'AREA I: Arte y Creatividad');
+INSERT INTO pregunta (texto, area) VALUES ('5. Seleccionar, capacitar y motivar al personal de una organizacion/empresa', 'AREA III: Economica, Administrativa y Financiera');
+INSERT INTO pregunta (texto, area) VALUES ('6. Realizar excavaciones para descubrir restos del pasado', 'AREA II: Ciencias Sociales');
+INSERT INTO pregunta (texto, area) VALUES ('7. Resolver problemas de calculo para construir un puente', 'AREA IV: Ciencia y Tecnologia');
+INSERT INTO pregunta (texto, area) VALUES ('8. Disenar cursos para ensenar a la gente sobre temas de salud e higiene', 'AREA V: Ciencias Ecologicas, Biologicas y de Salud');
+INSERT INTO pregunta (texto, area) VALUES ('9. Tocar un instrumento y componer musica', 'AREA I: Arte y Creatividad');
+INSERT INTO pregunta (texto, area) VALUES ('10. Planificar cuales son las metas de una organizacion publica o privada a mediano y largo plazo.', 'AREA III: Economica, Administrativa y Financiera');
+INSERT INTO pregunta (texto, area) VALUES ('11. Disenar y planificar la produccion masiva de articulos como muebles, autos, equipos de oficina, empaques y envases para alimentos y otros.', 'AREA IV: Ciencia y Tecnologia');
+INSERT INTO pregunta (texto, area) VALUES ('12. Disenar logotipos y portadas de una revista', 'AREA I: Arte y Creatividad');
+INSERT INTO pregunta (texto, area) VALUES ('13. Organizar eventos y atender a sus asistentes', 'AREA II: Ciencias Sociales');
+INSERT INTO pregunta (texto, area) VALUES ('14. Atender la salud de personas enfermas.', 'AREA V: Ciencias Ecologicas, Biologicas y de Salud');
+INSERT INTO pregunta (texto, area) VALUES ('15. Controlar ingresos y egresos de fondos y presentar el balance final de una institucion.', 'AREA III: Economica, Administrativa y Financiera');
+INSERT INTO pregunta (texto, area) VALUES ('16. Hacer experimentos con plantas (frutas, arboles, flores)', 'AREA V: Ciencias Ecologicas, Biologicas y de Salud');
+INSERT INTO pregunta (texto, area) VALUES ('17. Concebir planos para viviendas, edificios y ciudadelas.', 'AREA IV: Ciencia y Tecnologia');
+INSERT INTO pregunta (texto, area) VALUES ('18. Investigar y probar nuevos productos farmaceuticos.', 'AREA IV: Ciencia y Tecnologia');
+INSERT INTO pregunta (texto, area) VALUES ('19. Hacer propuestas y formular estrategias para aprovechar las relaciones economicas entre dos paises.', 'AREA III: Economica, Administrativa y Financiera');
+INSERT INTO pregunta (texto, area) VALUES ('20. Pintar, hacer esculturas, ilustrar libros de arte, etcetera.', 'AREA I: Arte y Creatividad');
+INSERT INTO pregunta (texto, area) VALUES ('21. Elaborar campañas para introducir un nuevo producto al mercado.', 'AREA III: Economica, Administrativa y Financiera');
+INSERT INTO pregunta (texto, area) VALUES ('22. Examinar y tratar los problemas visuales', 'AREA V: Ciencias Ecologicas, Biologicas y de Salud');
+INSERT INTO pregunta (texto, area) VALUES ('23. Defender a clientes individuales o empresas en juicios de diferente naturaleza.', 'AREA II: Ciencias Sociales');
+INSERT INTO pregunta (texto, area) VALUES ('24. Disenar maquinas que puedan simular actividades humanas.', 'AREA IV: Ciencia y Tecnologia');
+INSERT INTO pregunta (texto, area) VALUES ('25. Investigar las causas y efectos de los trastornos emocionales', 'AREA II: Ciencias Sociales');
+INSERT INTO pregunta (texto, area) VALUES ('26. Supervisar las ventas de un centro comercial', 'AREA III: Economica, Administrativa y Financiera');
+INSERT INTO pregunta (texto, area) VALUES ('27. Atender y realizar ejercicios a personas que tienen limitaciones fisicas, problemas de lenguaje, etcetera.', 'AREA V: Ciencias Ecologicas, Biologicas y de Salud');
+INSERT INTO pregunta (texto, area) VALUES ('28. Prepararse para ser modelo profesional.', 'AREA I: Arte y Creatividad');
+INSERT INTO pregunta (texto, area) VALUES ('29. Aconsejar a las personas sobre planes de ahorro e inversiones.', 'AREA III: Economica, Administrativa y Financiera');
+INSERT INTO pregunta (texto, area) VALUES ('30. Elaborar mapas, planos e imagenes para el estudio y analisis de datos geograficos.', 'AREA IV: Ciencia y Tecnologia');
+INSERT INTO pregunta (texto, area) VALUES ('31. Disenar juegos interactivos electronicos para computadora', 'AREA I: Arte y Creatividad');
+INSERT INTO pregunta (texto, area) VALUES ('32. Realizar el control de calidad de los alimentos', 'AREA V: Ciencias Ecologicas, Biologicas y de Salud');
+INSERT INTO pregunta (texto, area) VALUES ('33. Tener un negocio propio de tipo comercial.', 'AREA III: Economica, Administrativa y Financiera');
+INSERT INTO pregunta (texto, area) VALUES ('34. Escribir articulos periodisticos, cuentos, novelas y otros.', 'AREA II: Ciencias Sociales');
+INSERT INTO pregunta (texto, area) VALUES ('35. Redactar guiones y libretos para un programa de television', 'AREA I: Arte y Creatividad');
+INSERT INTO pregunta (texto, area) VALUES ('36. Organizar un plan de distribucion y venta de un gran almacen.', 'AREA III: Economica, Administrativa y Financiera');
+INSERT INTO pregunta (texto, area) VALUES ('37. Estudiar la diversidad cultural en el ambito rural y urbano.', 'AREA II: Ciencias Sociales');
+INSERT INTO pregunta (texto, area) VALUES ('38. Gestionar y evaluar convenios internacionales de cooperacion para el desarrollo social.', 'AREA II: Ciencias Sociales');
+INSERT INTO pregunta (texto, area) VALUES ('39. Crear campañas publicitarias', 'AREA I: Arte y Creatividad');
+INSERT INTO pregunta (texto, area) VALUES ('40. Trabajar investigando la reproduccion de peces, camarones y otros animales marinos.', 'AREA V: Ciencias Ecologicas, Biologicas y de Salud');
+INSERT INTO pregunta (texto, area) VALUES ('41. Dedicarse a fabricar productos alimenticios de consumo masivo', 'AREA IV: Ciencia y Tecnologia');
+INSERT INTO pregunta (texto, area) VALUES ('42. Gestionar y evaluar proyectos de desarrollo en una institucion educativa y/o fundacion.', 'AREA II: Ciencias Sociales');
+INSERT INTO pregunta (texto, area) VALUES ('43. Redisenar y decorar espacios fisicos en viviendas, oficinas y locales comerciales.', 'AREA I: Arte y Creatividad');
+INSERT INTO pregunta (texto, area) VALUES ('44. Administrar una empresa de turismo y/o agencias de viaje.', 'AREA III: Economica, Administrativa y Financiera');
+INSERT INTO pregunta (texto, area) VALUES ('45. Aplicar metodos alternativos a la medicina tradicional para atender personas con dolencias de diversa indole.', 'AREA V: Ciencias Ecologicas, Biologicas y de Salud');
+INSERT INTO pregunta (texto, area) VALUES ('46. Disenar ropa para ninos, jovenes y adultos.', 'AREA I: Arte y Creatividad');
+INSERT INTO pregunta (texto, area) VALUES ('47. Investigar organismos vivos para elaborar vacunas.', 'AREA V: Ciencias Ecologicas, Biologicas y de Salud');
+INSERT INTO pregunta (texto, area) VALUES ('48. Manejar y/o dar mantenimiento a dispositivos/aparatos tecnologicos en aviones, barcos, radares, etcetera.', 'AREA IV: Ciencia y Tecnologia');
+INSERT INTO pregunta (texto, area) VALUES ('49. Estudiar idiomas extranjeros –actuales y antiguos- para hacer traduccion.', 'AREA II: Ciencias Sociales');
+INSERT INTO pregunta (texto, area) VALUES ('50. Restaurar piezas y obras de arte', 'AREA I: Arte y Creatividad');
 
 
 
@@ -209,27 +208,27 @@ INSERT INTO opcion (texto, score, pregunta_id) VALUES ('Me interesa', 1, 50);
 INSERT INTO opcion (texto, score, pregunta_id) VALUES ('No me interesa', 0, 50);
 
 INSERT INTO ubicaciones (ciudad, region, pais) VALUES
-                                                   ('Lima', 'Lima', 'Perú'),
-                                                   ('Arequipa', 'Arequipa', 'Perú'),
-                                                   ('Trujillo', 'La Libertad', 'Perú'),
-                                                   ('Cusco', 'Cusco', 'Perú'),
-                                                   ('Piura', 'Piura', 'Perú'),
-                                                   ('Chiclayo', 'Lambayeque', 'Perú'),
-                                                   ('Huancayo', 'Junín', 'Perú'),
-                                                   ('Iquitos', 'Loreto', 'Perú'),
-                                                   ('Puno', 'Puno', 'Perú'),
-                                                   ('Tacna', 'Tacna', 'Perú');
+    ('Lima', 'Lima', 'Peru'),
+    ('Arequipa', 'Arequipa', 'Peru'),
+    ('Trujillo', 'La Libertad', 'Peru'),
+    ('Cusco', 'Cusco', 'Peru'),
+    ('Piura', 'Piura', 'Peru'),
+    ('Chiclayo', 'Lambayeque', 'Peru'),
+    ('Huancayo', 'Junin', 'Peru'),
+    ('Iquitos', 'Loreto', 'Peru'),
+    ('Puno', 'Puno', 'Peru'),
+    ('Tacna', 'Tacna', 'Peru');
 
 
 INSERT INTO carreras (ubicacion_id, nombre, img, descripcion, precio_mensualidad)
 VALUES
-    (3, 'Ingenier\u00eda de Sistemas', 'https://worldcampus.saintleo.edu/img/article/estudiar-ingenieria-en-sistemas-cuales-son-los-retos-de-ser-ingenierio-en-sistemas.webp', 'Desarrollo y gesti\u00f3n de sistemas de informaci\u00f3n, software y redes tecnol\u00f3gicas.', 'UNT: Gratuito | UPAO: 900 | UCV: 799'),
-    (3, 'Medicina', 'https://cayetano.edu.pe/wp-content/uploads/2022/08/carrera-medicina.png', 'Ciencia de la salud enfocada en la prevenci\u00f3n, diagn\u00f3stico y tratamiento de enfermedades.', 'UNT: Gratuito | UPAO: 1500 | UCV: 1299'),
-    (3, 'Derecho', 'https://imgmedia.larepublica.pe/640x371/larepublica/original/2022/04/21/6261eca2ea80e22fb844650d.webp', 'Estudio de las leyes y su aplicaci\u00f3n en la defensa de los derechos y justicia.', 'UNT: Gratuito | UPAO: 900 | UCV: 849'),
-    (3, 'Arquitectura', 'https://static-wc.arcux.net/uploads/20200529130551/la-arquitectura-1.jpg', 'Dise\u00f1o y construcci\u00f3n de edificaciones funcionales y est\u00e9ticas.', 'UPAO: 1000 | UCV: 899'),
-    (3, 'Administraci\u00f3n de Empresas', 'https://isil.pe/blog/wp-content/uploads/2023/09/administracion-empresas.webp', 'Gesti\u00f3n de recursos empresariales para la optimizaci\u00f3n de procesos y toma de decisiones.', 'UNT: Gratuito | UPAO: 850 | UCV: 799'),
-    (3, 'Ingenier\u00eda Industrial', 'https://alumni.upeu.edu.pe/wp-content/uploads/2022/11/carreras-ingenieria-industrial.webp', 'Optimizaci\u00f3n de procesos productivos y mejora en la eficiencia operativa de las empresas.', 'UNT: Gratuito | UPAO: 950 | UCV: 849'),
-    (3, 'Contabilidad', 'https://mosaic.cdnwp.com/media/Contabilidad-e1618393015635.png', 'Registro y an\u00e1lisis de la informaci\u00f3n financiera para la toma de decisiones econ\u00f3micas.', 'UNT: Gratuito | UPAO: 800 | UCV: 749'),
-    (3, 'Psicolog\u00eda', 'https://s3.amazonaws.com/cb-prd/www.colegiobostonschool.edu.pe/psicologia.webp', 'Estudio del comportamiento humano y los procesos mentales para la intervenci\u00f3n en la salud mental.', 'UNT: Gratuito | UPAO: 900 | UCV: 849'),
-    (3, 'Marketing', 'https://www.eumed.net/rev/tlatemoani/31/mercadotecnia.jpg', 'Estrategias y an\u00e1lisis de mercado para promover productos y servicios.', 'UPAO: 850 | UCV: 799'),
-    (3, 'Dise\u00f1o Gr\u00e1fico', 'https://media.licdn.com/dms/image/C4E03AQFJZiZAmEnMiQ/profile-displayphoto-shrink_200_200/0/1603986313800?e=1686182400&v=beta&t=dG67J8BghDkV8enVCJFD-MDx49FA27T9P_YxFbDLeGc', 'Creaci\u00f3n de contenido visual para transmitir mensajes de forma creativa y efectiva.', 'UPAO: 900 | UCV: 849');
+    (3, 'Ingenieria de Sistemas', 'https://worldcampus.saintleo.edu/img/article/estudiar-ingenieria-en-sistemas-cuales-son-los-retos-de-ser-ingenierio-en-sistemas.webp', 'Desarrollo y gestion de sistemas de informacion, software y redes tecnologicas.', 'UNT: Gratuito | UPAO: 900 | UCV: 799'),
+    (3, 'Medicina', 'https://cayetano.edu.pe/wp-content/uploads/2022/08/carrera-medicina.png', 'Ciencia de la salud enfocada en la prevencion, diagnostico y tratamiento de enfermedades.', 'UNT: Gratuito | UPAO: 1500 | UCV: 1299'),
+    (3, 'Derecho', 'https://imgmedia.larepublica.pe/640x371/larepublica/original/2022/04/21/6261eca2ea80e22fb844650d.webp', 'Estudio de las leyes y su aplicacion en la defensa de los derechos y justicia.', 'UNT: Gratuito | UPAO: 900 | UCV: 849'),
+    (3, 'Arquitectura', 'https://static-wc.arcux.net/uploads/20200529130551/la-arquitectura-1.jpg', 'Diseno y construccion de edificaciones funcionales y esteticas.', 'UPAO: 1000 | UCV: 899'),
+    (3, 'Administracion de Empresas', 'https://isil.pe/blog/wp-content/uploads/2023/09/administracion-empresas.webp', 'Gestion de recursos empresariales para la optimizacion de procesos y toma de decisiones.', 'UNT: Gratuito | UPAO: 850 | UCV: 799'),
+    (3, 'Ingenieria Industrial', 'https://alumni.upeu.edu.pe/wp-content/uploads/2022/11/carreras-ingenieria-industrial.webp', 'Optimizacion de procesos productivos y mejora en la eficiencia operativa de las empresas.', 'UNT: Gratuito | UPAO: 950 | UCV: 849'),
+    (3, 'Contabilidad', 'https://mosaic.cdnwp.com/media/Contabilidad-e1618393015635.png', 'Registro y analisis de la informacion financiera para la toma de decisiones economicas.', 'UNT: Gratuito | UPAO: 800 | UCV: 749'),
+    (3, 'Psicologia', 'https://s3.amazonaws.com/cb-prd/www.colegiobostonschool.edu.pe/psicologia.webp', 'Estudio del comportamiento humano y los procesos mentales para la intervencion en la salud mental.', 'UNT: Gratuito | UPAO: 900 | UCV: 849'),
+    (3, 'Marketing', 'https://www.eumed.net/rev/tlatemoani/31/mercadotecnia.jpg', 'Estrategias y analisis de mercado para promover productos y servicios.', 'UPAO: 850 | UCV: 799'),
+    (3, 'Diseno Grafico', 'https://media.licdn.com/dms/image/C4E03AQFJZiZAmEnMiQ/profile-displayphoto-shrink_200_200/0/1603986313800?e=1686182400&v=beta&t=dG67J8BghDkV8enVCJFD-MDx49FA27T9P_YxFbDLeGc', 'Creacion de contenido visual para transmitir mensajes de forma creativa y efectiva.', 'UPAO: 900 | UCV: 849');
