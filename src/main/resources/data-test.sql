@@ -223,13 +223,13 @@ INSERT INTO ubicaciones (ciudad, region, pais) VALUES
 
 INSERT INTO carreras (ubicacion_id, nombre, img, descripcion, precio_mensualidad)
 VALUES
-    (1, 'Ingeniería de Sistemas', 'https://cba.ucb.edu.bo/blog/wp-content/uploads/2021/04/desarrollo-programadores-desarrollo-tecnologias-diseno-codificacion-sitios-web_18497-1019.jpg', 'La carrera que forma profesionales en tecnologías de la información y comunicación.', '1500'),
-    (2, 'Medicina', 'https://observatorio.tec.mx/wp-content/uploads/2020/06/TheRoleofaMedicalandHealthSciencesStudentDuringaPandemic.jpg', 'Estudios enfocados en la atención médica y la investigación de enfermedades.', '3000'),
-    (3, 'Derecho', 'https://definicion.de/wp-content/uploads/2008/03/juez.jpg', 'Carrera que enseña los fundamentos de la justicia y la defensa de los derechos.', '1300'),
-    (4, 'Arquitectura', 'https://static-wc.arcux.net/uploads/20200529130551/la-arquitectura-1.jpg', 'Formación en diseño y planificación de estructuras y edificios.', '1700'),
-    (5, 'Administración de Empresas', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0iwWEN9g2p3VklxnZXcphNP5ZyYC-m4xsw&s', 'Preparación para la gestión y administración de organizaciones.', '1200'),
-    (6, 'Ingeniería Industrial', 'https://www.tuproyectodevida.pe/wp-content/uploads/2023/04/especialidades-ingenieria-industrial.jpg', 'Especialización en procesos productivos y optimización de recursos.', '1600'),
-    (7, 'Contabilidad', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSNUwfO7VtFls59UYGmDvcj2LOV2n4qqyYA&s', 'Estudio de la gestión financiera y el manejo de cuentas.', '1100'),
-    (8, 'Psicología', 'https://clinicavicent.com/wp-content/uploads/2023/05/psicologia.webp', 'Formación para la comprensión y tratamiento del comportamiento humano.', '1400'),
-    (9, 'Marketing', 'https://i0.wp.com/www.erickpardo.com/wp-content/uploads/2020/11/marketing.webp?fit=1280%2C854&ssl=1', 'Carrera centrada en estrategias de promoción y ventas de productos y servicios.', '1000'),
-    (10, 'Diseño Gráfico', 'https://cdn-cjpme.nitrocdn.com/RBveHUhgbLfgOUOOlhRIgWHSMTdPvbOz/assets/images/optimized/rev-bb4821d/mediactiu.com/wp-content/uploads/2021/04/Por-que-necesito-contratar-los-servicios-de-disen%CC%83o-grafico.jpg', 'Enseñanza del arte visual, diseño digital y creación de contenido visual.', '900');
+    (3, 'Ingeniería de Sistemas', 'https://worldcampus.saintleo.edu/img/article/estudiar-ingenieria-en-sistemas-cuales-son-los-retos-de-ser-ingenierio-en-sistemas.webp', 'Desarrollo y gestión de sistemas de información, software y redes tecnológicas.', 'UNT: Gratuito | UPAO: 900 | UCV: 799'),
+ (3, 'Medicina', 'https://cayetano.edu.pe/wp-content/uploads/2022/08/carrera-medicina.png', 'Ciencia de la salud enfocada en la prevención, diagnóstico y tratamiento de enfermedades.', 'UNT: Gratuito | UPAO: 1500 | UCV: 1299'),
+(3, 'Derecho', 'https://imgmedia.larepublica.pe/640x371/larepublica/original/2022/04/21/6261eca2ea80e22fb844650d.webp', 'Estudio de las leyes y su aplicación en la defensa de los derechos y justicia.', 'UNT: Gratuito | UPAO: 900 | UCV: 849'),
+ (3, 'Arquitectura', 'https://static-wc.arcux.net/uploads/20200529130551/la-arquitectura-1.jpg', 'Diseño y construcción de edificaciones funcionales y estéticas.', 'UPAO: 1000 | UCV: 899'),
+ (3, 'Administración de Empresas', 'https://isil.pe/blog/wp-content/uploads/2023/09/administracion-empresas.webp', 'Gestión de recursos empresariales para la optimización de procesos y toma de decisiones.', 'UNT: Gratuito | UPAO: 850 | UCV: 799'),
+(3, 'Ingeniería Industrial', 'https://alumni.upeu.edu.pe/wp-content/uploads/2022/11/carreras-ingenieria-industrial.webp', 'Optimización de procesos productivos y mejora en la eficiencia operativa de las empresas.', 'UNT: Gratuito | UPAO: 950 | UCV: 849'),
+(3, 'Contabilidad', 'https://mosaic.cdnwp.com/media/Contabilidad-e1618393015635.png', 'Registro y análisis de la información financiera para la toma de decisiones económicas.', 'UNT: Gratuito | UPAO: 800 | UCV: 749'),
+(3, 'Psicología', 'https://s3.amazonaws.com/cb-prd/www.colegiobostonschool.edu.pe/psicologia.webp', 'Estudio del comportamiento humano y los procesos mentales para la intervención en la salud mental.', 'UNT: Gratuito | UPAO: 900 | UCV: 849'),
+ (3, 'Marketing', 'https://www.eumed.net/rev/tlatemoani/31/mercadotecnia.jpg', 'Estrategias y análisis de mercado para promover productos y servicios.', 'UPAO: 850 | UCV: 799'),
+(3, 'Diseño Gráfico', 'https://media.licdn.com/dms/image/C4E03AQFJZiZAmEnMiQ/profile-displayphoto-shrink_200_200/0/1603986313800?e=1686182400&v=beta&t=dG67J8BghDkV8enVCJFD-MDx49FA27T9P_YxFbDLeGc', 'Creación de contenido visual para transmitir mensajes de forma creativa y efectiva.', 'UPAO: 900 | UCV: 849');
