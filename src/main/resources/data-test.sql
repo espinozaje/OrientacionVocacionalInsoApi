@@ -223,7 +223,7 @@ INSERT INTO ubicaciones (ciudad, region, pais) VALUES
 
 INSERT INTO carreras (ubicacion_id, nombre, img, descripcion, precio_mensualidad)
 VALUES
-    (3, N'Ingeniería de Sistemas', 'https://worldcampus.saintleo.edu/img/article/estudiar-ingenieria-en-sistemas-cuales-son-los-retos-de-ser-ingenierio-en-sistemas.webp', N'Desarrollo y gestión de sistemas de información, software y redes tecnológicas.', 'UNT: Gratuito | UPAO: 900 | UCV: 799'),
+    (3, 'Ingeniería de Sistemas', 'https://worldcampus.saintleo.edu/img/article/estudiar-ingenieria-en-sistemas-cuales-son-los-retos-de-ser-ingenierio-en-sistemas.webp', 'Desarrollo y gestión de sistemas de información, software y redes tecnológicas.', 'UNT: Gratuito | UPAO: 900 | UCV: 799'),
  (3, 'Medicina', 'https://cayetano.edu.pe/wp-content/uploads/2022/08/carrera-medicina.png', 'Ciencia de la salud enfocada en la prevención, diagnóstico y tratamiento de enfermedades.', 'UNT: Gratuito | UPAO: 1500 | UCV: 1299'),
 (3, 'Derecho', 'https://imgmedia.larepublica.pe/640x371/larepublica/original/2022/04/21/6261eca2ea80e22fb844650d.webp', 'Estudio de las leyes y su aplicación en la defensa de los derechos y justicia.', 'UNT: Gratuito | UPAO: 900 | UCV: 849'),
  (3, 'Arquitectura', 'https://static-wc.arcux.net/uploads/20200529130551/la-arquitectura-1.jpg', 'Diseño y construcción de edificaciones funcionales y estéticas.', 'UPAO: 1000 | UCV: 899'),
